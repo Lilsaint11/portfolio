@@ -3,8 +3,15 @@ import { FaEnvelope, FaGithub,FaLinkedin, FaTwitter } from 'react-icons/fa';
 import {GiHamburgerMenu} from 'react-icons/gi';
 import {AiOutlineClose} from 'react-icons/ai';
 import { NavLink, Link } from 'react-router-dom';
+import gsap from 'gsap';
+import { useRef, useEffect } from 'react';
 
 const Header = () => {
+    const headerRef = useRef(null);
+    useEffect(() => {
+        let el = headerRef.current;
+        gsap.to(el,{y:0,opacity:1, duration:2,ease:"bounce"})
+    },[])
 
     const [menuClass, setMenuClass] = useState("sm:flex gap-6 text-slate-800 hidden")
     const [burgerClicked, setBurgerClicked] = useState(false)
@@ -12,7 +19,7 @@ const Header = () => {
     const dislayMenu = () => {
         setBurgerClicked((i) => !i);
         if(!burgerClicked) {
-            setMenuClass("flex flex-col gap-2 absolute top-5 text-slate-800 visible transition duration-300")
+            setMenuClass("flex flex-col gap-4 text-xl absolute top-10 right-1 text-slate-800 visible transition duration-300")
         }else{
             setMenuClass("sm:flex gap-6 text-slate-800 hidden")
         }
@@ -20,14 +27,14 @@ const Header = () => {
 
     const activeClassName='text-black font-bold ';
     return ( 
-        <div className="flex justify-between sm:px-20 max-[400px]:px-5 max-[350px]:px-3 px-10 z-1 items-center">
+        <div className="flex justify-between sm:px-20 max-[400px]:px-5 max-[350px]:px-3 px-10 z-1 items-center opacity-0 translate-y-[-20vh]" ref={headerRef}>
             <NavLink to='/'><h1 className="max-[350px]:text-2xl max-[300px]:text-xl text-3xl font-bold">Stephen.</h1></NavLink>
             <div className="flex gap-5 text-slate-500"> 
                 <NavLink to ="/"  className={({ isActive }) => isActive ? activeClassName : "text-slate-500 hover:scale-125 transition duration-300"}>Home</NavLink>
                 <NavLink to="/projects"  className={({ isActive }) => isActive ? activeClassName :"text-slate-500 hover:scale-125 transition duration-300"}>Projects</NavLink>
             </div>
             <div className='flex flex-col gap-5 relative'>
-                <div className="sm:hidden block" onClick={dislayMenu}>
+                <div className="sm:hidden block text-3xl" onClick={dislayMenu}>
                     {burgerClicked ? <AiOutlineClose/> : <GiHamburgerMenu/>}
                 </div>
                 <div className={menuClass}>

@@ -1,8 +1,15 @@
 import { NavLink } from 'react-router-dom';
+import gsap from 'gsap';
+import { useRef, useEffect } from 'react';
 
 const Footer = () => {
+  const footerRef = useRef(null);
+    useEffect(() => {
+        let el = footerRef.current;
+        gsap.to(el,{y:0,ease:"none",opacity:1, duration:1})
+    },[])
     return ( 
-       <div className="bg-black flex flex-col justify-center items-center text-center py-3">
+       <div className="bg-black flex flex-col justify-center items-center text-center py-3 opacity-0 translate-y-[20vh]" ref={footerRef} >
          <div className="flex w-full justify-around p-5 text-white z-1">
            <NavLink to='/about' className='hover:scale-125 transition duration-300'>About</NavLink>
            <NavLink to='/contact' className='hover:scale-125 transition duration-300'>Contact</NavLink>
