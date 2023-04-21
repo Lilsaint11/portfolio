@@ -16,6 +16,7 @@ const About = () => {
                 <p className="bg-black text-white px-3 py-1 rounded-lg text-center text-xs">Javascript</p>
                 <p className="bg-black text-white px-3 py-1 rounded-lg text-center text-xs">Reactjs + vite</p>
                 <p className="bg-black text-white px-3 py-1 rounded-lg text-center text-xs">Tailwind css</p>
+                <p className="bg-black text-white px-3 py-1 rounded-lg text-center text-xs">Firebase</p>
             </div>
         </div>
      );

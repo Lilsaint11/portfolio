@@ -5,8 +5,8 @@ import ProjectList from "./project-list";
       {
         "title": "Blog website",
         "image": "./images/blogg-1.png",
-        "stacks": ["Reactjs","json-server"],
-        "webLink": "",
+        "stacks": ["Reactjs","firebase"],
+        "webLink": "https://blog-site-lilsaint11.vercel.app/",
         "githubLink": "https://github.com/lilsaint11/blog-site"
       },
       {

@@ -6,25 +6,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 let ProjectList = ({projects}) => {
    let headerRef = useRef(null);
-   let letRef = useRef(null);
-   let himRef = useRef(null);
-   let cookRef = useRef(null);
    let containerRef = useRef(null);
 
     useLayoutEffect(() => {
         let el = headerRef.current;
-        let let1 = letRef.current;
-        let him = himRef.current;
-        let cook = cookRef.current;
         let cont = containerRef.current;
         let ctx = gsap.context(() => {
             gsap.to(el,{x:0,ease:"elastic",opacity:1, duration:1,delay:3.6})
-            gsap.to(let1,{scale:6,opacity:1, duration:1})
-            gsap.to(let1,{display:'none', delay:0.6})
-            gsap.to(him,{scale:6,opacity:1, duration:1,delay:1})
-            gsap.to(him,{display:'none', delay:1.8})
-            gsap.to(cook,{scale:10,opacity:1, duration:2,delay:2.2})
-            gsap.to(cook,{display:'none', delay:3})
             gsap.to(cont,{opacity:1, delay:3.5})
         });
         return () => ctx.revert();
@@ -59,11 +47,6 @@ let ProjectList = ({projects}) => {
                     </div>
                 ))}
             </div>
-            </div>
-            <div className="absolute top-[20%] text-xs font-serif">
-                <p className='absolute opacity-0 text-4xl' ref={letRef}>LET</p>
-                <p className='absolute opacity-0 text-4xl' ref={himRef}>HIM</p>
-                <p className='absolute opacity-0 text-4xl' ref={cookRef}>COOK</p>
             </div>
         </div>
      );
