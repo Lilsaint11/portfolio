@@ -12,8 +12,8 @@ let ProjectList = ({projects}) => {
         let el = headerRef.current;
         let cont = containerRef.current;
         let ctx = gsap.context(() => {
-            gsap.to(el,{x:0,ease:"elastic",opacity:1, duration:1,delay:3.6})
-            gsap.to(cont,{opacity:1, delay:3.5})
+            gsap.to(el,{x:0,ease:"elastic",opacity:1, duration:1})
+            gsap.to(cont,{opacity:1})
         });
         return () => ctx.revert();
     },[])
