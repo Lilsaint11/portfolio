@@ -6,7 +6,7 @@ import ProjectList from "./project-list";
         "title": "omnigpt landing-page ",
         "image": "./images/omnigpt-bg.png",
         "stacks": ["Reactjs","tailwindcss"],
-        "webLink": "https://steve-omnigpt.vercel.app/",
+        "webLink": "https://omnigpt-landing-page.vercel.app/",
         "githubLink": "https://github.com/lilsaint11/omnigpt-landing-page"
       },
       {
