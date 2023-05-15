@@ -24,11 +24,11 @@ let ProjectList = ({projects}) => {
             <h2 className="font-bold text-3xl font-mono translate-x-[30vh] opacity-0" ref={headerRef}>My Projects</h2>
             <div className="grid gap-4 md:grid-cols-2 grid-cols-1 px-20">
                 {projects && projects.map(project => (
-                    <div className="box max-w-[400px] min-w-[255px]  max-[400px]:max-w-md max-h-72 flex flex-col justify-between justify-self-center gap-2 p-3 shadow-md shadow-gray-700" data-aos="zoom-in-up"
+                    <div className="box max-c min-w-[255px]  max-[400px]:max-w-md max-h-72 flex flex-col justify-between justify-self-center gap-2 p-3 shadow-md shadow-gray-700" data-aos="zoom-in-up"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000" key={project.id}>
                         <div className="relative">
-                            <img src={ project.image } alt="img" />
+                            <img src={ project.image } alt="img"  className='w-full h-[200px] w-[400px]'/>
                             <div className="absolute bg-[rgba(0,0,0,0.8)]  top-0 left-0 h-full w-full flex flex-col text-center justify-center items-center ipad:gap-10 md:gap-20 sm:gap-10 gap-5 opacity-0 hover:opacity-100 transition duration-300">
                                 <h2 className=" font-bold font-mono text-xl text-slate-200 sm:text-3xl">{ project.title }</h2>
                                 <span className=" text-sm flex gap-5  w-full bottom-5 justify-center">

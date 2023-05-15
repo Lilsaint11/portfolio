@@ -3,6 +3,20 @@ import ProjectList from "./project-list";
 
     const projects = [
       {
+        "title": "omnigpt landing-page ",
+        "image": "./images/omnigpt-bg.png",
+        "stacks": ["Reactjs","tailwindcss"],
+        "webLink": "https://steve-omnigpt.vercel.app/",
+        "githubLink": "https://github.com/lilsaint11/omnigpt-landing-page"
+      },
+      {
+        "title": "Oppy photography",
+        "image": "./images/oppy-bg.png",
+        "stacks": ["Reactjs","tailwindcss"],
+        "webLink": "https://oppy-photography.vercel.app/",
+        "githubLink": "https://github.com/lilsaint11/oppy-photography"
+      },
+      {
         "title": "Blog website",
         "image": "./images/blogg-1.png",
         "stacks": ["Reactjs","firebase"],
