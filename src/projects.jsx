@@ -3,6 +3,13 @@ import ProjectList from "./project-list";
 
     const projects = [
       {
+        "title": "Connectify social media webapp",
+        "image": "./images/connectify.png",
+        "stacks": ["Nextjs","tailwindcss","Firebase","Nextauth","apis"],
+        "webLink": "https://connectify-iota.vercel.app/",
+        "githubLink": "https://github.com/lilsaint11/connectify"
+      },
+      {
         "title": "omnigpt landing-page ",
         "image": "./images/omnigpt-bg.png",
         "stacks": ["Reactjs","tailwindcss"],
