@@ -5,7 +5,7 @@ import ProjectList from "./project-list";
       {
         "title": "Connectify social media webapp",
         "image": "./images/connectify.png",
-        "stacks": ["Nextjs","tailwindcss","Firebase","Nextauth","apis"],
+        "stacks": ["Nextjs","tailwindcss","Firebase"],
         "webLink": "https://connectify-iota.vercel.app/",
         "githubLink": "https://github.com/lilsaint11/connectify"
       },

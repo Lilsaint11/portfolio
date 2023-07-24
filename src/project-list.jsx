@@ -37,7 +37,7 @@ let ProjectList = ({projects}) => {
                                 </span>
                             </div>
                         </div>
-                        <div className="flex justify-end gap-3">
+                        <div className="flex  justify-end gap-3">
                             { project.stacks.map(projectStack => (
                                 <span className="flex h-full items-center justify-center bg-black text-white px-3 py-1 rounded-lg font-normal text-center text-xs">
                                     <p>{projectStack}</p>
