@@ -26,7 +26,7 @@ import ProjectList from "./project-list";
       {
         "title": "Oppy photography",
         "image": "./images/oppy-bg.png",
-        "stacks": ["Reactjs","tailwindcss"],
+        "stacks": ["Reactjs","tailwindcss","sanity"],
         "webLink": "https://oppy-photography.vercel.app/",
         "githubLink": "https://github.com/lilsaint11/oppy-photography"
       },
