@@ -3,6 +3,13 @@ import ProjectList from "./project-list";
 
     const projects = [
       {
+        "title": "CoinBit crypto investment",
+        "image": "./images/coinbit.png",
+        "stacks": ["Nextjs","tailwindcss","Firebase"],
+        "webLink": "https://coinbit.vercel.app/",
+        "githubLink": "https://github.com/lilsaint11/coinbit"
+      },
+      {
         "title": "Connectify social media webapp",
         "image": "./images/connectify.png",
         "stacks": ["Nextjs","tailwindcss","Firebase"],
