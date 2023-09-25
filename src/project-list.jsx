@@ -22,9 +22,9 @@ let ProjectList = ({projects}) => {
         <div className=" flex flex-col justify-center items-center gap-5 relative">
             <div  className="opacity-0 flex flex-col justify-center items-center gap-5 relative" ref={containerRef}>
             <h2 className="font-bold text-3xl font-mono translate-x-[30vh] opacity-0" ref={headerRef}>My Projects</h2>
-            <div className="grid gap-4 md:grid-cols-2 grid-cols-1">
+            <div className="grid gap-4 md:grid-cols-2 grid-cols-1 max-[500px]:px-5">
                 {projects && projects.map(project => (
-                    <div className="box w-[500px] min-w-[255px] max-lg:w-[400px]  max-[500px]:w-48 max-h-72 flex flex-col justify-between justify-self-center gap-2 p-3 shadow-md shadow-gray-700" data-aos="zoom-in-up"
+                    <div className="box w-[500px] min-w-[255px] max-lg:w-[400px]  max-[500px]:w-full max-h-72 flex flex-col justify-between justify-self-center gap-2 p-3 shadow-md shadow-gray-700" data-aos="zoom-in-up"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000" key={project.id}>
                         <div className="relative">

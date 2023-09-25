@@ -66,13 +66,6 @@ import ProjectList from "./project-list";
         "githubLink": "https://github.com/lilsaint11/ecommerce-app"
       },
       {
-        "title": "Tiktaktoe Game",
-        "image": "./images/tiktaktoe1.png",
-        "stacks": ["html","css","javascript"],
-        "webLink": "https://stevetiktaktoev2.netlify.app",
-        "githubLink": "https://github.com/lilsaint11/Tik-Tak-Toe"
-      },
-      {
         "title": "Landing Page",
         "image": "./images/landingpage.png",
         "stacks": ["html","css","javascript"],
@@ -80,6 +73,16 @@ import ProjectList from "./project-list";
         "githubLink": "https://github.com/lilsaint11/Landing-page"
       },
       {
+        "title": "Tiktaktoe Game",
+        "image": "./images/tiktaktoe1.png",
+        "stacks": ["html","css","javascript"],
+        "webLink": "https://stevetiktaktoev2.netlify.app",
+        "githubLink": "https://github.com/lilsaint11/Tik-Tak-Toe"
+      },
+      
+    ]
+
+{/*{
         "title": "Memory Game",
         "image": "./images/mgame.png",
         "stacks": ["html","css","javascript"],
@@ -92,10 +95,7 @@ import ProjectList from "./project-list";
         "stacks": ["html","css","javascript"],
         "webLink": "https://steve-todo-app.netlify.app",
         "githubLink": "https://github.com/lilsaint11/javascript-todo-app"
-      }
-    ]
-
-
+      }*/}
 
 const Projects = () => {
     return ( 
