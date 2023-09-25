@@ -3,6 +3,20 @@ import ProjectList from "./project-list";
 
     const projects = [
       {
+        "title": "Getlinked landing page",
+        "image": "./images/getlinked-banner.png",
+        "stacks": ["Nextjs","tailwindcss","framer"],
+        "webLink": "https://getlinked-lilsaint11.vercel.app/",
+        "githubLink": "https://github.com/lilsaint11/getlinked"
+      },
+      {
+        "title": "Glovo app clone",
+        "image": "./images/glovo-banner.png",
+        "stacks": ["Nextjs","tailwindcss","supabase","zustand"],
+        "webLink": "https://glovo-lilsaint11.vercel.app/",
+        "githubLink": "https://github.com/lilsaint11/glovo"
+      },
+      {
         "title": "CoinBit crypto investment",
         "image": "./images/coinbit.png",
         "stacks": ["Nextjs","tailwindcss","Firebase"],
