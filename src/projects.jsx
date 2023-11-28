@@ -5,7 +5,7 @@ import ProjectList from "./project-list";
       {
         "title": "bayrite clone",
         "image": "./images/bayrite.png",
-        "stacks": ["Nextjs","tailwindcss","supabase","Sanity","zustand"],
+        "stacks": ["Nextjs","tailwindcss","supabase","Sanity"],
         "webLink": "https://bayrite.vercel.app/",
         "githubLink": "https://github.com/lilsaint11/bayrite"
       },
