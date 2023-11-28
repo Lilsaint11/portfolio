@@ -3,6 +3,13 @@ import ProjectList from "./project-list";
 
     const projects = [
       {
+        "title": "bayrite clone",
+        "image": "./images/bayrite.png",
+        "stacks": ["Nextjs","tailwindcss","supabase","Sanity","zustand"],
+        "webLink": "https://bayrite.vercel.app/",
+        "githubLink": "https://github.com/lilsaint11/bayrite"
+      },
+      {
         "title": "Getlinked landing page",
         "image": "./images/getlinked-banner.png",
         "stacks": ["Nextjs","tailwindcss","framer"],
