@@ -5,14 +5,14 @@ import ProjectList from "./project-list";
       {
         "title": "Sushi",
         "image": "./images/sushi.png",
-        "stacks": ["Nextjs","tailwindcss","typescript",],
+        "stacks": ["Nextjs","tailwindcss","typescript(TS)",],
         "webLink": "https://sushi-lilsaint11.vercel.app/",
         "githubLink": "https://github.com/lilsaint11/sushi"
       },
       {
         "title": "Retro",
         "image": "./images/retro.png",
-        "stacks": ["Nextjs","tailwind","typescript", "context","supabase"],
+        "stacks": ["Nextjs","tailwind","TS", "context","supabase"],
         "webLink": "https://retro-typescript.vercel.app/",
         "githubLink": "https://github.com/lilsaint11/retro-typescript"
       },
