@@ -12,7 +12,7 @@ import ProjectList from "./project-list";
       {
         "title": "Retro",
         "image": "./images/retro.png",
-        "stacks": ["Nextjs","tailwindcss","typescript", "context"],
+        "stacks": ["Nextjs","tailwind","typescript", "context","supabase"],
         "webLink": "https://retro-typescript.vercel.app/",
         "githubLink": "https://github.com/lilsaint11/retro-typescript"
       },
