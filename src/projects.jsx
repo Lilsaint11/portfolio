@@ -3,6 +3,20 @@ import ProjectList from "./project-list";
 
     const projects = [
       {
+        "title": "Sushi",
+        "image": "./images/sushi.png",
+        "stacks": ["Nextjs","tailwindcss","typescript",],
+        "webLink": "https://sushi-lilsaint11.vercel.app/",
+        "githubLink": "https://github.com/lilsaint11/sushi"
+      },
+      {
+        "title": "Retro",
+        "image": "./images/retro.png",
+        "stacks": ["Nextjs","tailwindcss","typescript", "context"],
+        "webLink": "https://retro-typescript.vercel.app/",
+        "githubLink": "https://github.com/lilsaint11/retro-typescript"
+      },
+      {
         "title": "bayrite clone",
         "image": "./images/bayrite.png",
         "stacks": ["Nextjs","tailwindcss","supabase","Sanity"],
